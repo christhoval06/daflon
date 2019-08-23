@@ -1,0 +1,117 @@
+.machine-screen {
+  nav, .actions {
+    position: relative;
+    z-index: 2;
+    background-color: rgba(255, 255, 255, .8);
+  }
+  .button-play {
+    margin-left: 10px;
+  }
+  .slot-machine {
+    z-index: 1;
+    position: relative;
+    height: 200px;
+    border: 1px solid #E1E1E1;
+    // border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0 0 2px rgba(0, 0, 0, .1);
+    &.debug {
+      overflow: visible;
+    }
+    /*
+    &:before {
+      content: '';
+      display: block;
+      width: 100%;
+      position: absolute;
+      height: 0;
+      z-index: 1;
+      background: linear-gradient(to bottom, rgba(255, 255, 255, 1) 20%, rgba(255, 255, 255, .3) 100%);
+      // border-radius: 5px;
+      border-bottom-left-radius: 5px;
+      border-bottom-right-radius: 5px;
+    }
+    &:after {
+      content: '';
+      display: block;
+      width: 100%;
+      position: absolute;
+      bottom: 0;
+      height: 0;
+      z-index: 1;
+      background: linear-gradient(to top, rgba(255, 255, 255, 1) 20%, rgba(255, 255, 255, .3) 100%);
+      // border-radius: 5px;
+      border-top-left-radius: 5px;
+      border-top-right-radius: 5px;
+    }
+    */
+  }
+
+  .reel {
+    position: relative;
+    .reel-item {
+      font-size: 2rem;
+      // padding: 2rem 0;
+      text-align: center;
+      &.winner {
+        animation: flash;
+        animation-duration: 1s;
+        animation-iteration-count: 3;
+      }
+    }
+  }
+
+  @keyframes flash {
+    0% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+
+  .reel-wrapper {
+    position: relative;
+    .reel-debug {
+      text-align: center;
+      position: absolute;
+      width: 96%;
+      top: 4px;
+      left: 5px;
+      font-size: 80%;
+      background-color: rgba(0, 0, 0, .6);
+      color: #fff;
+      z-index: 5;
+      label {
+        text-transform: uppercase;
+        color: #ddd;
+      }
+      ul {
+        margin: 0;
+        li {
+          list-style: none;
+          line-height: 1;
+          margin: 7px 4px;
+          float: left;
+        }
+      }
+    }
+  }
+
+  /* Larger than mobile */
+  @media (min-width: 400px) {
+    .slot-machine .column,
+    .slot-machine .columns {
+      margin-left: 4%;
+      &:first-child {
+        margin-left: 0;
+      }
+    }
+    .slot-machine .four.columns {
+      width: 30.6666666667%;
+    }
+  }
+}

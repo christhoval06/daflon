@@ -1,0 +1,515 @@
+{
+	"categories": [
+		"all",
+		"daflon",
+		"pathology",
+		"doctor",
+		"proctologist",
+		"surgeon",
+		"bonus"
+	],
+	"questions": [
+		{
+			"id": 1,
+			"text": "¿En qué porcentaje (%) Daflon se absorbe más que la Diosmina no micronizada?",
+			"category": [
+				"doctor"
+			],
+			"type": [
+				"doctor"
+			],
+			"answers": [
+				{
+					"text": "20% más"
+				},
+				{
+					"text": "35% más"
+				},
+				{
+					"text": "58% más",
+					"success": true
+				},
+				{
+					"text": "No hay ninguna diferencia",
+					"fixed": true
+				}
+			],
+			"image": null
+		},
+		{
+			"id": 2,
+			"text": "¿Cuáles son los componentes que tiene Daflon?",
+			"category": [
+				"doctor"
+			],
+			"type": [
+				"doctor",
+				"surgeon"
+			],
+			"answers": [
+				{
+					"text": "Diosmina y hesperidina"
+				},
+				{
+					"text": "Diosmina, hesperidina, isorhoifolina, linarina y diosmetina",
+					"success": true
+				},
+				{
+					"text": "Diosmina, hesperidina, rutina, linarina y diosmetina"
+				}
+			],
+			"image": null
+		},
+		{
+			"id": 3,
+			"text": "¿De qué tamaño son las partículas de Daflon después de su micronización?",
+			"category": [
+				"doctor"
+			],
+			"type": [
+				"doctor",
+				"surgeon"
+			],
+			"answers": [
+				{
+					"text": "1.8 micras",
+					"success": true
+				},
+				{
+					"text": "2.5 micras"
+				},
+				{
+					"text": "5.5 micras"
+				}
+			],
+			"image": null
+		},
+		{
+			"id": 4,
+			"text": "¿Qué grado de recomendación y nivel de evidencia tiene Daflon en las Guías Internacionales y Latinoamericanas para el manejo de la EVC?",
+			"category": [
+				"doctor"
+			],
+			"type": [
+				"doctor",
+				"surgeon"
+			],
+			"answers": [
+				{
+					"text": "Fuerte – 1 B",
+					"success": true
+				},
+				{
+					"text": "Fuerte – 2 B"
+				},
+				{
+					"text": "5.5 micras"
+				}
+			],
+			"image": null
+		},
+		{
+			"id": 5,
+			"text": "Según las Guías Internacionales y Latinoamericanas para el manejo de la EVC, ¿cuál es el punto esencial de la EVC en el que solamente Daflon actúa?",
+			"category": [
+				"doctor"
+			],
+			"type": [
+				"doctor",
+				"surgeon"
+			],
+			"answers": [
+				{
+					"text": "Drenaje linfático"
+				},
+				{
+					"text": "Válvula y pared venosa",
+					"success": true
+				},
+				{
+					"text": "Desórdenes hemorreológicos"
+				},
+				{
+					"text": "Tono Venoso"
+				}
+			],
+			"image": null
+		},
+		{
+			"id": 6,
+			"text": "¿Cuál es la dosis de Daflon 500 recomendada para el tratamiento de un paciente con crisis hemorroidal?",
+			"category": [
+				"doctor"
+			],
+			"type": [
+				"doctor"
+			],
+			"answers": [
+				{
+					"text": "6 comprimidos al día/4 días y luego 4 comp. al día/3 días.",
+					"success": true
+				},
+				{
+					"text": "4 comprimidos al día/4 días y luego 2 comp. al día/3 días."
+				},
+				{
+					"text": "2 comprimidos al día por al menos 2 meses"
+				}
+			],
+			"image": null
+		},
+		{
+			"id": 7,
+			"text": "En pacientes con edema por EVC ¿Cuántos mililitros (ml) ha demostrado eliminar Daflon de cada pierna del paciente?",
+			"category": [
+				"doctor"
+			],
+			"type": [
+				"doctor",
+				"surgeon"
+			],
+			"answers": [
+				{
+					"text": "165 ml de cada pierna"
+				},
+				{
+					"text": "392 ml de cada pierna",
+					"success": true
+				},
+				{
+					"text": "No ha demostrado eficacia en reducción del edema"
+				}
+			],
+			"image": null
+		},
+		{
+			"id": 8,
+			"text": "¿Cuál es el beneficio de tratar a los pacientes con Daflon desde la primera etapa de la EVC (C0)?",
+			"category": [
+				"doctor"
+			],
+			"type": [
+				"doctor",
+				"surgeon"
+			],
+			"answers": [
+				{
+					"text": "Alivio significativo del dolor"
+				},
+				{
+					"text": "Alivio significativo del dolor, pesadez y calambres, mejora calidad de vida",
+					"success": true
+				},
+				{
+					"text": "No hay evidencia demostrada en pacientes C0"
+				}
+			],
+			"image": null
+		},
+		{
+			"id": 9,
+			"text": "¿Cuántos pacientes son tratados anualmente con Daflon en el mundo?",
+			"category": [
+				"doctor"
+			],
+			"type": [
+				"doctor",
+				"surgeon"
+			],
+			"answers": [
+				{
+					"text": "100,000"
+				},
+				{
+					"text": "220,000"
+				},
+				{
+					"text": "2 millones"
+				},
+				{
+					"text": "22 millones",
+					"success": true
+				}
+			],
+			"image": null
+		},
+		{
+			"id": 10,
+			"text": "La Familia Daflon crece. ¿Cuáles son los próximos lanzamientos en nuestra región ?",
+			"category": [
+				"doctor"
+			],
+			"type": [
+				"doctor",
+				"surgeon"
+			],
+			"answers": [
+				{
+					"text": "Daflon 1000 sachet"
+				},
+				{
+					"text": "Daflon 1000 tabletas"
+				},
+				{
+					"text": "Cedraflon"
+				},
+				{
+					"text": "Todos",
+					"success": true
+				}
+			],
+			"image": null
+		},
+		{
+			"id": 11,
+			"text": "Las mujeres que tienen 2 o más niños tienen un riesgo adicional de desarrollar várices vs mujeres que tienen solo un niño. ¿De cuánto es este riesgo?",
+			"category": [
+				"doctor"
+			],
+			"type": [
+				"pathology"
+			],
+			"answers": [
+				{
+					"text": "10 a 20%"
+				},
+				{
+					"text": "20 a 30%",
+					"success": true
+				},
+				{
+					"text": "30 a 40%"
+				},
+				{
+					"text": "Mas de 50%"
+				}
+			],
+			"image": null
+		},
+		{
+			"id": 12,
+			"text": "¿Cuál es la prevalencia de la EVC a nivel mundial?",
+			"category": [
+				"doctor"
+			],
+			"type": [
+				"pathology"
+			],
+			"answers": [
+				{
+					"text": "5 de cada 10 pacientes"
+				},
+				{
+					"text": "7 de cada 10 pacientes"
+				},
+				{
+					"text": "8 de cada 10 pacientes",
+					"success": true
+				}
+			],
+			"image": null
+		},
+		{
+			"id": 13,
+			"text": "Según usted ¿Qué es la enfermedad venosa crónica? (Varias respuestas posibles)",
+			"category": [
+				"doctor"
+			],
+			"type": [
+				"pathology"
+			],
+			"answers": [
+				{
+					"text": "Una enfermedad inflamatoria progresiva"
+				},
+				{
+					"text": "Una enfermedad crónica que debe de ser tratada en todas sus etapas (C0- C6)"
+				},
+				{
+					"text": "Una enfermedad que solamente está presente en pacientes con síntomas y signos visibles"
+				},
+				{
+					"text": "A y B son correctas",
+					"success": true
+				}
+			],
+			"image": null
+		},
+		{
+			"id": 14,
+			"text": "¿Cuáles son los 3 síntomas más frecuentes de la enfermedad venosa crónica en nuestra región?",
+			"category": [
+				"doctor"
+			],
+			"type": [
+				"pathology"
+			],
+			"answers": [
+				{
+					"text": "Pesadez, dolor e hinchazón",
+					"success": true
+				},
+				{
+					"text": "Dolor, sensación de calor y comezón"
+				},
+				{
+					"text": "Pesadez, piernas cansadas, calambres nocturnos"
+				}
+			],
+			"image": null
+		},
+		{
+			"id": 15,
+			"text": "En la enfermedad venosa crónica, ¿cuál es el tipo de tratamiento recomendado en todos los estadios de la enfermedad?",
+			"category": [
+				"doctor"
+			],
+			"type": [
+				"pathology"
+			],
+			"answers": [
+				{
+					"text": "Tratamientos tópicos"
+				},
+				{
+					"text": "Terapia de compresión"
+				},
+				{
+					"text": "Flebotónicos",
+					"success": true
+				},
+				{
+					"text": "Escleroterapia"
+				}
+			],
+			"image": null
+		},
+		{
+			"id": 16,
+			"text": "Después de los 50 años, ¿qué porcentaje (%) de la población ha experimentado síntomas hemorroidales al menos una vez en su vida?",
+			"category": [
+				"doctor"
+			],
+			"type": [
+				"pathology"
+			],
+			"answers": [
+				{
+					"text": "25 %"
+				},
+				{
+					"text": "50 %",
+					"success": true
+				},
+				{
+					"text": "65 %"
+				}
+			],
+			"image": null
+		},
+		{
+			"id": 17,
+			"text": "¿En qué grado de la enfermedad hemorroidal el hemorroide prolapsado aún se reduce de manera espontánea?",
+			"category": [
+				"doctor"
+			],
+			"type": [
+				"pathology"
+			],
+			"answers": [
+				{
+					"text": "Grado I"
+				},
+				{
+					"text": "Grado II",
+					"success": true
+				},
+				{
+					"text": "Grado III"
+				},
+				{
+					"text": "Grado IV"
+				}
+			],
+			"image": null
+		},
+		{
+			"id": 18,
+			"text": "Seleccione 3 factores de riesgo para la enfermedad hemorroidal",
+			"category": [
+				"doctor"
+			],
+			"type": [
+				"pathology"
+			],
+			"answers": [
+				{
+					"text": "Ropa ajustada, comidas muy calientes, sentarse en lugares fríos"
+				},
+				{
+					"text": "Embarazo, estreñimiento, dieta baja en fibra",
+					"success": true
+				},
+				{
+					"text": "Andar en bicicleta, comer comidas picantes, sentarse en lugares fríos"
+				}
+			],
+			"image": null
+		},
+		{
+			"id": 19,
+			"text": "¿En qué tipo de escleroterapia Daflon ha demostrado tener un efecto sinérgico en el alivio de los síntomas post operatorios?",
+			"category": [
+				"doctor"
+			],
+			"type": [
+				"surgeon"
+			],
+			"answers": [
+				{
+					"text": "Escleroperapia con microespuma"
+				},
+				{
+					"text": "Escleroterapia líquida"
+				},
+				{
+					"text": "No hay evidencia"
+				},
+				{
+					"text": "A y B son correctas",
+					"success": true
+				}
+			],
+			"image": null
+		},
+		{
+			"id": 19,
+			"text": "¿Cuál es el beneficio de utilizar Daflon durante y después de los procedimientos endovenosos? (Láser endovenoso, radiofrecuencia, escleroterapia con microespuma)",
+			"category": [
+				"doctor"
+			],
+			"type": [
+				"surgeon"
+			],
+			"answers": [
+				{
+					"text": "Alivio significativo de los síntomas"
+				},
+				{
+					"text": "Aceleralarecuperacióndelospacientes"
+				},
+				{
+					"text": "Mejora la calidad de vida del paciente"
+				},
+				{
+					"text": "Todaslasanteriores",
+					"success": true
+				},
+				{
+					"text": "Nohaybeneficiosdemostrados"
+				}
+			],
+			"image": null
+		}
+	]
+}

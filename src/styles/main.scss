@@ -1,0 +1,76 @@
+@import "../../node_modules/bootstrap/scss/bootstrap";
+@import "bourbon/bourbon";
+@import "screens/all";
+@import "components/all";
+
+html, body, #root, .App, .main-container {
+  height: 100%
+}
+
+body {
+  @include linear-gradient(to bottom, rgba(26, 57, 130, 1), rgba(44, 84, 165, 1));
+  @include radial-gradient(rgba(31, 180, 252, 1), rgba(26, 62, 165, 1))
+}
+
+// #232741
+
+.App {
+  position: relative;
+  overflow: hidden;
+}
+
+.particles, .rays, .circle-rays {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  z-index: 0;
+  overflow: hidden;
+}
+
+.main-container {
+  position: relative;
+  z-index: 3;
+}
+
+.main-screen {
+  height: 70%;
+  width: 100%;
+}
+
+.circle-rays, .rays {
+  background-position: 50%;
+  -webkit-transform-origin: 50% 50%;
+  -ms-transform-origin: 50% 50%;
+  transform-origin: 50% 50%;
+}
+
+.rays {
+  opacity: .2;
+  @include animation(leaves 1s ease-in-out infinite alternate);
+}
+
+.circle-rays {
+  opacity: .5;
+  // @include animation(spin 10s linear infinite);
+}
+
+@include keyframes(spin) {
+  100% {
+    @include transform(rotate(360deg));
+  }
+}
+
+@include keyframes(leaves) {
+  0% {
+    @include transform(scale(1.0));
+  }
+  100% {
+    @include transform(scale(2.0));
+  }
+}
+
+// https://jameschambers.co/writing/sequenced-animation/

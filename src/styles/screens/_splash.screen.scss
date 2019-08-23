@@ -1,0 +1,23 @@
+.splash-screen {
+  position: relative;
+  img {
+    -webkit-transform-origin: 50% 50%;
+    -ms-transform-origin: 50% 50%;
+    transform-origin: 50% 50%;
+    &.animated {
+      @include animation(scalator 1s ease-in-out infinite alternate);
+    }
+    &.titled {
+      @include transition(width 0.3s ease-in-out);
+    }
+  }
+}
+
+@include keyframes(scalator) {
+  0% {
+    @include transform(scale(1.0));
+  }
+  100% {
+    @include transform(scale(1.3));
+  }
+}

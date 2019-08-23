@@ -1,0 +1,45 @@
+.selector-screen {
+  position: relative;
+  margin-top: -90px;
+  @include transition(margin-top 1s ease-in-out);
+
+  .card {
+    position: relative;
+    background-color: transparent !important;
+    border: 0 solid transparent !important;
+
+    .list-group {
+      .list-group-item {
+        position: relative;
+        padding-left: 90px;
+        border-radius: 50px !important;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        background-color: #ffffff;
+        border: 1px solid #e6e6e6;
+        box-shadow: 0 5px 0 #b4b4b4;
+        top: 0;
+        transition: all ease 0.1s;
+
+        &:active {
+          box-shadow: 0 3px 0 #b4b4b4;
+          top: 3px;
+        }
+
+        &:first-child {
+          margin-top: 20px;
+        }
+        img {
+          position: absolute;
+          width: 95px;
+          left: -14px;
+          top: -14px;
+        }
+        span {
+          font-weight: bold;
+          font-size: 2em;
+        }
+      }
+    }
+  }
+}

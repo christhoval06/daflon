@@ -1,0 +1,38 @@
+{
+  "name": "daflon",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "bootstrap": "^4.0.0",
+    "localforage": "^1.7.1",
+    "mobx": "^4.1.1",
+    "mobx-persist": "^0.4.1",
+    "mobx-react": "^5.0.0",
+    "prop-types": "^15.6.1",
+    "react": "^16.3.0",
+    "react-addons-css-transition-group": "^15.6.2",
+    "react-addons-transition-group": "^15.6.2",
+    "react-dom": "^16.3.0",
+    "react-helmet": "^5.2.0",
+    "react-particles-js": "^2.1.1",
+    "reactstrap": "^5.0.0",
+    "styled-components": "^3.2.6",
+    "superstruct": "^0.5.2"
+  },
+  "scripts": {
+    "build-css": "node-sass-chokidar --include-path ./src src/styles/main.scss -o src/styles",
+    "watch-css": "npm run build-css && node-sass-chokidar --include-path ./src src/styles/main.scss -o src/styles --watch --recursive",
+    "start-js": "PORT=3000 react-app-rewired start",
+    "start": "npm-run-all -p watch-css start-js",
+    "build": "npm run build-css && react-app-rewired build",
+    "test": "react-app-rewired test --env=jsdom",
+    "eject": "react-app-rewired eject"
+  },
+  "devDependencies": {
+    "node-sass-chokidar": "^1.2.2",
+    "npm-run-all": "^4.1.2",
+    "react-app-rewire-mobx": "^1.0.8",
+    "react-app-rewired": "^1.5.0",
+    "react-scripts": "1.1.1"
+  }
+}
